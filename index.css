@@ -1,0 +1,54 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 10%;
+    background-color: aliceblue;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+/* #akhrisahara{
+    display: flex;
+    flex-direction: row;
+}*/
+.container{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+/* .container h1{
+    font-size: 34px;
+    padding: 10px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.container2{
+    display:inline-block ;
+    width: 60%;
+    height: 80%;
+    padding: 0px 0px;
+}
+.experiment{
+    padding: 40px;
+    background-image: url("./images/wood.jpg");
+    width: 40%;
+    height: 100%; 
+}    */
+.cards{
+    height: 80%;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+
+    
