@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{  
     font-family: monospace;
       /* transition: all .s ease-in-out ; */
@@ -5,12 +9,19 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    height: 198vh;
+    background-color: ghostwhite;
+}
+
 .navbar {
+    /* background-color: tomato; */
     display: flex;
     flex-direction: row;
-    height: 9vh;
+    height: 10vh;
     width: 54vw;
-    margin-left: 33%;
+    margin-left: 25%;
+    position: fixed;
 }
 .navbar li {
     font-family: monospace;
@@ -20,7 +31,7 @@
 .navbar li a{
     transition: all .1s ease-in-out;
     margin-left: 84px;
-    margin-top: 40px;
+    margin-top: 40px; 
     font-size: 1.3em;
     color: black;
     text-decoration: none;
@@ -30,5 +41,41 @@
     transition: all .2.5s ease-in-out;
     color:rgb(0, 75, 110);
     transform: scale(1.1);
+}
+/* logo */
+section img{  
+    height: 8vw;
+    width: 11vw;
+}
+
+section::before{
+    margin-top: 8%;
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: url('./images/juan-rojas-l9nngSmvCVY-unsplash.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    z-index: -1;
+    opacity: .9;
+}
+.Works{
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    position: relative;
+    top: 50%;
+}
+.Works img {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 50vw;
+    margin: 1px;
+}
+.Works img::before{
+    content: 'THIS IS ';
 }
 
